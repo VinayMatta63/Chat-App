@@ -1,93 +1,92 @@
-.Chat{
-    display: flex;
-    flex-direction: column;
-    flex: 0.70;
+.Chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
 }
 
-.ChatHeader{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid lightgray;
+.ChatHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
 }
 
-.ChatHeaderInfo{
-    flex: 1;
-    padding-left: 20px;
+.ChatHeaderInfo {
+  flex: 1;
+  padding-left: 20px;
 }
 
-.ChatHeaderInfo > h3{
- margin-bottom: 3px;
- font-weight: 500;
+.ChatHeaderInfo > h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
 }
 
-.ChatHeaderInfo > p{
-    color: gray;
+.ChatHeaderInfo > p {
+  color: gray;
 }
 
-.ChatBody{
-    flex: 1;
-    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png") ;
-    background-repeat: repeat;
-    background-position: center;
-    padding: 30px;
-    overflow: scroll;
+.ChatBody {
+  flex: 1;
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: scroll;
 }
 
-.ChatMessage{
-    position: relative;
-    font-size: 16px;
-    padding: 10px;
-    width: fit-content;
-    border-radius: 10px;
-    background-color: #ffffff;
-    margin-bottom: 30px;
+.ChatMessage {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
 }
 
-.ChatReceiver{
-    margin-left: auto;
-    background-color: #dcf8c6;
-
+.ChatReceiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
 }
 
-.ChatTimestamp{
-    margin-left: 10px;
-    font-size: xx-small;
+.ChatTimestamp {
+  margin-left: 10px;
+  font-size: xx-small;
 }
 
-.ChatName{
-    position: absolute;
-    top: -15px;
-    font-weight: 800;
-    font-size: xx-small;
+.ChatName {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
 }
 
-.ChatFooter{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
-    border-top: 1px solid lightgray;
+.ChatFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
 }
 
-.ChatFooter > form{
-    flex: 1;
-    display: flex;
+.ChatFooter > form {
+  flex: 1;
+  display: flex;
 }
 
-.ChatFooter > form > input{
-    flex: 1;
-    border-radius: 30px;
-    padding: 10px;
-    border:none;
-    outline-width: 0;
+.ChatFooter > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline-width: 0;
 }
 
-.ChatFooter > form > button{
-    display: none;
+.ChatFooter > form > button {
+  display: none;
 }
 
-.ChatFooter > .MuiSvgIcon-root{
-    padding: 10px;
-    color: gray;
+.ChatFooter > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
 }

@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import reducer,{initialState} from './reducer'
-import {StateProvider} from './StateProvider'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import reducer, { initialState } from "./reducer";
+import { StateProvider } from "./StateProvider";
 
 ReactDOM.render(
-    <StateProvider initialState={initialState} 
-    reducer={reducer}>
+  <StateProvider initialState={initialState} reducer={reducer}>
     <App />
-    </StateProvider>,
-  document.getElementById('root')
+  </StateProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

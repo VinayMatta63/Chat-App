@@ -1,26 +1,26 @@
-.Login{
-    background-color: #f8f8f8;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    place-items: center;
+.Login {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
 }
 
-.LoginContainer{
-    padding: 100px;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+.LoginContainer {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
-.LoginContainer > img{
-    object-fit: contain;
-    height: 100px;
-    margin-bottom: 40px;
+.LoginContainer > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
 }
-.LoginContainer > button{
-    margin-top: 50px;
-    text-transform: inherit !important;
-    background-color: #109950 !important;
-    color: white;
+.LoginContainer > button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: #109950 !important;
+  color: white;
 }
